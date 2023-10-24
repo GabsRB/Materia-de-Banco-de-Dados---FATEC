@@ -5,12 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Materia de Banco de Dados</title>
     <style>
-    
+    body, html {
+            margin: 0; /*Para remover margem*/
+            padding: 0; /*Para remover preenchimento padrão*/
+            height: 100%;
+        }
 
-    
+        .Container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .Background {
+            background-color: #6af1c9;
+            padding: 50px; /* Peenchimento*/
+            width: 100%; /* Ocupa toda a largura */
+            box-sizing: border-box; /* Inclui preenchimento e borda na largura total */
+        }
+
+        .texto {
+            text-align: center;
+            color: #fff; /* Cor do texto */
+        }    
     </style>
     </head>
 <body>
-   
+   <div class="Container">
+        <div class="Background">
+            <div class="texto">
+                <h1>Banco de dados</h1>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
